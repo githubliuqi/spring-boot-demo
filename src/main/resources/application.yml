@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: demo
+  profiles:
+    active: dev
+  thymeleaf:
+    prefix: classpath:/templates/
+     #选择一个配置运行项目
+     #application-dev.properties： 用于开发环境
+     #application-test.properties：用于测试环境
+     #application-prod.properties：用于生产环境
+mybatis:
+  config:
+
